@@ -1,0 +1,4 @@
+<!--pages/components/progress/progress.wxml-->
+<view>
+  <view>progress</view>
+</view>

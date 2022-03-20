@@ -1,0 +1,18 @@
+.full-page {
+  width: 750rpx;
+  height: 100vh;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.align-center {
+  align-items: center;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.btn { 
+  margin-top: 80vh;
+}

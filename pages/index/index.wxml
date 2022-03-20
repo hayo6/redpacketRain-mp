@@ -1,0 +1,12 @@
+<!--pages/index/index.wxml-->
+<view class="full-page">
+  <button wx:if="{{pageState === 1}}" type="primary" class="btn" bindtap="startGame">开始游戏</button>
+  <view wx:if="{{pageState === 2}}" class="full-page column center">
+    <countdown bind:end="countDownEnd"></countdown>
+  </view>
+  <view class="full-page" wx:if="{{pageState === 3}}">
+    <canvas type="2d" id="myCanvas" style="width: 100vw; height: 100vh"></canvas>
+    <progress></progress>
+    <dialog></dialog>
+  </view>
+</view>

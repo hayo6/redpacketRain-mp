@@ -1,0 +1,4 @@
+<!--pages/components/dialog/dialog.wxml-->
+<view>
+  <view>dialog</view>
+</view>

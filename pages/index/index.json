@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "countdown": "/pages/components/countdown/countdown",
+    "progress": "/pages/components/progress/progress",
+    "dialog": "/pages/components/dialog/dialog"
+  }
+}
