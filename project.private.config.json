@@ -12,7 +12,8 @@
     "useApiHook": true,
     "useApiHostProcess": true,
     "useIsolateContext": true,
-    "showES6CompileOption": false
+    "showES6CompileOption": false,
+    "useStaticServer": true
   },
   "condition": {},
   "projectname": "redpackrain-mp",
